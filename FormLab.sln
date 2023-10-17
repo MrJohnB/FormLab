@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34212.112
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{AF8959CE-90A7-4B77-949A-346DB58E68FD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{AD295109-1045-4E37-9087-A5DBB7AD6A1F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LiteBulb.FormLab.Domain", "src\LiteBulb.FormLab.Domain\LiteBulb.FormLab.Domain.csproj", "{76CC679C-ADA3-4534-BE6C-011BEC5A670B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{76CC679C-ADA3-4534-BE6C-011BEC5A670B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76CC679C-ADA3-4534-BE6C-011BEC5A670B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76CC679C-ADA3-4534-BE6C-011BEC5A670B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76CC679C-ADA3-4534-BE6C-011BEC5A670B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{76CC679C-ADA3-4534-BE6C-011BEC5A670B} = {AF8959CE-90A7-4B77-949A-346DB58E68FD}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6E76EF5D-9ECE-4417-82A6-24AC45D1F318}
+	EndGlobalSection
+EndGlobal
