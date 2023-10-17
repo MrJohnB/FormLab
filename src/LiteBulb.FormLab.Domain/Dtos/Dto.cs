@@ -1,5 +1,4 @@
 ﻿namespace LiteBulb.FormLab.Domain.Dtos;
-
 public abstract class Dto
 {
     public int? Id { get; set; }

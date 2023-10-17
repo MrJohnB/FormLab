@@ -1,5 +1,4 @@
 ﻿namespace LiteBulb.FormLab.Domain.Dtos.Metadata;
-
 public class FieldMetadata
 {
     public string Name { get; set; } = string.Empty;
