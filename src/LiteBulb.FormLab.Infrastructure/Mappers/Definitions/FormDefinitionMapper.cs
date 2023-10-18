@@ -18,6 +18,8 @@ public class FormDefinitionMapper : IMapper<Entities.Definitions.FormDefinition,
         return new FormDefinition()
         {
             Id = entity.Id,
+            Name = entity.Name,
+            Description = entity.Description,
             Fields = _fieldDefinitionMapper.ToModel(entity.Fields)
         };
     }
@@ -44,6 +46,8 @@ public class FormDefinitionMapper : IMapper<Entities.Definitions.FormDefinition,
         return new Entities.Definitions.FormDefinition()
         {
             Id = model.Id ??= 0,
+            Name = model.Name,
+            Description = model.Description,
             Fields = _fieldDefinitionMapper.ToEntity(model.Fields)
             // Note: ignore Created and LastModified
         };

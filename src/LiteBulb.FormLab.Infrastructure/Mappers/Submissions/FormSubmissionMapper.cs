@@ -18,6 +18,8 @@ public class FormSubmissionMapper : IMapper<Entities.Submissions.FormSubmission,
         return new FormSubmission()
         {
             Id = entity.Id,
+            Name = entity.Name,
+            Description = entity.Description,
             Fields = _fieldSubmissionMapper.ToModel(entity.Fields)
         };
     }
@@ -44,6 +46,8 @@ public class FormSubmissionMapper : IMapper<Entities.Submissions.FormSubmission,
         return new Entities.Submissions.FormSubmission()
         {
             Id = model.Id ??= 0,
+            Name = model.Name,
+            Description = model.Description,
             Fields = _fieldSubmissionMapper.ToEntity(model.Fields)
             // Note: ignore Created and LastModified
         };
