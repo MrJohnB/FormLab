@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.12" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="7.0.12" />
+    <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="7.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\LiteBulb.FormLab.Domain\LiteBulb.FormLab.Domain.csproj" />
+    <ProjectReference Include="..\LiteBulb.FormLab.Infrastructure.Shared\LiteBulb.FormLab.Infrastructure.Shared.csproj" />
+    <ProjectReference Include="..\LiteBulb.FormLab.Shared\LiteBulb.FormLab.Shared.csproj" />
+  </ItemGroup>
+
+</Project>
