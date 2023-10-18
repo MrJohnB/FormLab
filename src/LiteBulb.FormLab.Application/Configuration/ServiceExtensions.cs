@@ -12,6 +12,7 @@ public static class ServiceExtensions
     {
         return services
             .AddScoped<IService<FormDefinition, int>, FormDefinitionService>()
+            .AddScoped<IService<FieldDefinition, int>, FieldDefinitionService>()
             .AddScoped<IService<FormSubmission, int>, FormSubmissionService>();
     }
 }

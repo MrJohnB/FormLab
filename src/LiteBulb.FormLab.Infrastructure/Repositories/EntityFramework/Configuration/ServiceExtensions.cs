@@ -2,7 +2,7 @@
 using LiteBulb.FormLab.Domain.Dtos.Submissions;
 using LiteBulb.FormLab.Infrastructure.Mappers.Definition;
 using LiteBulb.FormLab.Infrastructure.Mappers.Submissions;
-using LiteBulb.FormLab.Infrastructure.Repositories.EntityFramework.Definition;
+using LiteBulb.FormLab.Infrastructure.Repositories.EntityFramework.Definitions;
 using LiteBulb.FormLab.Infrastructure.Repositories.EntityFramework.Submissions;
 using LiteBulb.FormLab.Shared.Mappers;
 using LiteBulb.FormLab.Shared.Repositories;
@@ -50,6 +50,7 @@ public static class ServiceExtensions
     {
         return services
             .AddScoped<IRepository<FormDefinition, int>, FormDefinitionRepository>()
+            .AddScoped<IRepository<FieldDefinition, int>, FieldDefinitionRepository>()
             .AddScoped<IRepository<FormSubmission, int>, FormSubmissionRepository>();
     }
 }

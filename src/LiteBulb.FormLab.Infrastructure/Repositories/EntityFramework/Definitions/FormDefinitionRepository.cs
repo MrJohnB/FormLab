@@ -4,7 +4,7 @@ using LiteBulb.FormLab.Shared.Mappers;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
 
-namespace LiteBulb.FormLab.Infrastructure.Repositories.EntityFramework.Definition;
+namespace LiteBulb.FormLab.Infrastructure.Repositories.EntityFramework.Definitions;
 public class FormDefinitionRepository : AuditableRepository<Entities.Definitions.FormDefinition, FormDefinition, int>
 {
     public FormDefinitionRepository(ILogger<FormDefinitionRepository> logger, FormLabDbContext dbContext, IMapper<Entities.Definitions.FormDefinition, FormDefinition> mapper)
