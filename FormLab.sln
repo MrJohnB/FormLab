@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LiteBulb.FormLab.Infrastruc
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LiteBulb.FormLab.Infrastructure.Migrations", "src\LiteBulb.FormLab.Infrastructure.Migrations\LiteBulb.FormLab.Infrastructure.Migrations.csproj", "{1B668F1C-F085-41F6-9A0B-B75E22428DF3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LiteBulb.FormLab.Api", "src\LiteBulb.FormLab.Api\LiteBulb.FormLab.Api.csproj", "{1020D0E3-4B2F-4A00-8E57-7F8D1A49189A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -49,6 +51,10 @@ Global
 		{1B668F1C-F085-41F6-9A0B-B75E22428DF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1B668F1C-F085-41F6-9A0B-B75E22428DF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1B668F1C-F085-41F6-9A0B-B75E22428DF3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1020D0E3-4B2F-4A00-8E57-7F8D1A49189A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1020D0E3-4B2F-4A00-8E57-7F8D1A49189A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1020D0E3-4B2F-4A00-8E57-7F8D1A49189A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1020D0E3-4B2F-4A00-8E57-7F8D1A49189A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -60,6 +66,7 @@ Global
 		{381FFDCF-8671-4AAF-82A7-FA88D0263938} = {AF8959CE-90A7-4B77-949A-346DB58E68FD}
 		{A418D444-2EFA-4FAE-A87D-2F3B4FA32208} = {AF8959CE-90A7-4B77-949A-346DB58E68FD}
 		{1B668F1C-F085-41F6-9A0B-B75E22428DF3} = {AF8959CE-90A7-4B77-949A-346DB58E68FD}
+		{1020D0E3-4B2F-4A00-8E57-7F8D1A49189A} = {AF8959CE-90A7-4B77-949A-346DB58E68FD}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6E76EF5D-9ECE-4417-82A6-24AC45D1F318}
