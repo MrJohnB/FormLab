@@ -7,29 +7,31 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{AF8959CE-90A
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{AD295109-1045-4E37-9087-A5DBB7AD6A1F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LiteBulb.FormLab.Domain", "src\LiteBulb.FormLab.Domain\LiteBulb.FormLab.Domain.csproj", "{76CC679C-ADA3-4534-BE6C-011BEC5A670B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LiteBulb.FormLab.Domain", "src\LiteBulb.FormLab.Domain\LiteBulb.FormLab.Domain.csproj", "{76CC679C-ADA3-4534-BE6C-011BEC5A670B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LiteBulb.FormLab.Shared", "src\LiteBulb.FormLab.Shared\LiteBulb.FormLab.Shared.csproj", "{C8F1B0EE-5830-41B3-8DA8-25B4D60E3154}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LiteBulb.FormLab.Shared", "src\LiteBulb.FormLab.Shared\LiteBulb.FormLab.Shared.csproj", "{C8F1B0EE-5830-41B3-8DA8-25B4D60E3154}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LiteBulb.FormLab.Application", "src\LiteBulb.FormLab.Application\LiteBulb.FormLab.Application.csproj", "{FED71530-B5BF-4240-B1A6-69C2823FA6E4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LiteBulb.FormLab.Application", "src\LiteBulb.FormLab.Application\LiteBulb.FormLab.Application.csproj", "{FED71530-B5BF-4240-B1A6-69C2823FA6E4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LiteBulb.FormLab.Infrastructure", "src\LiteBulb.FormLab.Infrastructure\LiteBulb.FormLab.Infrastructure.csproj", "{381FFDCF-8671-4AAF-82A7-FA88D0263938}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LiteBulb.FormLab.Infrastructure", "src\LiteBulb.FormLab.Infrastructure\LiteBulb.FormLab.Infrastructure.csproj", "{381FFDCF-8671-4AAF-82A7-FA88D0263938}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LiteBulb.FormLab.Infrastructure.Shared", "src\LiteBulb.FormLab.Infrastructure.Shared\LiteBulb.FormLab.Infrastructure.Shared.csproj", "{A418D444-2EFA-4FAE-A87D-2F3B4FA32208}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LiteBulb.FormLab.Infrastructure.Shared", "src\LiteBulb.FormLab.Infrastructure.Shared\LiteBulb.FormLab.Infrastructure.Shared.csproj", "{A418D444-2EFA-4FAE-A87D-2F3B4FA32208}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LiteBulb.FormLab.Api", "src\LiteBulb.FormLab.Api\LiteBulb.FormLab.Api.csproj", "{1020D0E3-4B2F-4A00-8E57-7F8D1A49189A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LiteBulb.FormLab.Api", "src\LiteBulb.FormLab.Api\LiteBulb.FormLab.Api.csproj", "{1020D0E3-4B2F-4A00-8E57-7F8D1A49189A}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LiteBulb.FormLab.Infrastructure.Migrations", "src\LiteBulb.FormLab.Infrastructure.Migrations\LiteBulb.FormLab.Infrastructure.Migrations.csproj", "{1B668F1C-F085-41F6-9A0B-B75E22428DF3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LiteBulb.FormLab.Application.Tests", "test\LiteBulb.FormLab.Application.Tests\LiteBulb.FormLab.Application.Tests.csproj", "{6E383BDB-243A-4427-9957-A1DF51D1EC3D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LiteBulb.FormLab.Application.Tests", "test\LiteBulb.FormLab.Application.Tests\LiteBulb.FormLab.Application.Tests.csproj", "{6E383BDB-243A-4427-9957-A1DF51D1EC3D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LiteBulb.FormLab.Domain.Tests", "test\LiteBulb.FormLab.Domain.Tests\LiteBulb.FormLab.Domain.Tests.csproj", "{8AB60809-397E-478D-9019-DEB1740E95CB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LiteBulb.FormLab.Domain.Tests", "test\LiteBulb.FormLab.Domain.Tests\LiteBulb.FormLab.Domain.Tests.csproj", "{8AB60809-397E-478D-9019-DEB1740E95CB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LiteBulb.FormLab.Infrastructure.Tests", "test\LiteBulb.FormLab.Infrastructure.Tests\LiteBulb.FormLab.Infrastructure.Tests.csproj", "{DC00FA64-9585-4B9C-BE1A-991B469E70C1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LiteBulb.FormLab.Infrastructure.Tests", "test\LiteBulb.FormLab.Infrastructure.Tests\LiteBulb.FormLab.Infrastructure.Tests.csproj", "{DC00FA64-9585-4B9C-BE1A-991B469E70C1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LiteBulb.FormLab.Infrastructure.Shared.Tests", "test\LiteBulb.FormLab.Infrastructure.Shared.Tests\LiteBulb.FormLab.Infrastructure.Shared.Tests.csproj", "{D821ED3C-6232-4AD6-9B12-C7D01B29D8C3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LiteBulb.FormLab.Infrastructure.Shared.Tests", "test\LiteBulb.FormLab.Infrastructure.Shared.Tests\LiteBulb.FormLab.Infrastructure.Shared.Tests.csproj", "{D821ED3C-6232-4AD6-9B12-C7D01B29D8C3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LiteBulb.FormLab.Shared.Tests", "test\LiteBulb.FormLab.Shared.Tests\LiteBulb.FormLab.Shared.Tests.csproj", "{D7A98A78-D917-48BB-88F3-D0B24222A616}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LiteBulb.FormLab.Shared.Tests", "test\LiteBulb.FormLab.Shared.Tests\LiteBulb.FormLab.Shared.Tests.csproj", "{D7A98A78-D917-48BB-88F3-D0B24222A616}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LiteBulb.FormLab.Web.Blazor", "src\LiteBulb.FormLab.Web.Blazor\LiteBulb.FormLab.Web.Blazor.csproj", "{59037862-E603-47F0-9667-79FB29F5251F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -85,6 +87,10 @@ Global
 		{D7A98A78-D917-48BB-88F3-D0B24222A616}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D7A98A78-D917-48BB-88F3-D0B24222A616}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D7A98A78-D917-48BB-88F3-D0B24222A616}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59037862-E603-47F0-9667-79FB29F5251F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59037862-E603-47F0-9667-79FB29F5251F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59037862-E603-47F0-9667-79FB29F5251F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59037862-E603-47F0-9667-79FB29F5251F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -102,6 +108,7 @@ Global
 		{DC00FA64-9585-4B9C-BE1A-991B469E70C1} = {AD295109-1045-4E37-9087-A5DBB7AD6A1F}
 		{D821ED3C-6232-4AD6-9B12-C7D01B29D8C3} = {AD295109-1045-4E37-9087-A5DBB7AD6A1F}
 		{D7A98A78-D917-48BB-88F3-D0B24222A616} = {AD295109-1045-4E37-9087-A5DBB7AD6A1F}
+		{59037862-E603-47F0-9667-79FB29F5251F} = {AF8959CE-90A7-4B77-949A-346DB58E68FD}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6E76EF5D-9ECE-4417-82A6-24AC45D1F318}
