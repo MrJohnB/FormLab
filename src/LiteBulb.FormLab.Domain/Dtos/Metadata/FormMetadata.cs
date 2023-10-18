@@ -1,5 +1,5 @@
 ﻿namespace LiteBulb.FormLab.Domain.Dtos.Metadata;
-public class FormMetadata
+public class FormMetadata : Dto
 {
-    IReadOnlyCollection<FieldMetadata> Fields { get; set; } = null!;
+    public IReadOnlyCollection<FieldMetadata> Fields { get; set; } = null!;
 }

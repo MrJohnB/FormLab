@@ -1,5 +1,5 @@
 ﻿namespace LiteBulb.FormLab.Domain.Dtos.Submissions;
-public class FieldSubmission
+public class FieldSubmission : Dto
 {
     public string Name { get; set; } = string.Empty;
     public string Description { get; set; } = string.Empty;
