@@ -4,8 +4,8 @@ using Microsoft.EntityFrameworkCore;
 namespace LiteBulb.FormLab.Infrastructure.Repositories.EntityFramework;
 public class FormLabDbContext : DbContext
 {
-    //public DbSet<FormMetadata> FormMetadata => Set<FormMetadata>();
-    //public DbSet<FieldMetadata> FieldMetadata => Set<FieldMetadata>();
+    //public DbSet<FormDefinition> FormDefinition => Set<FormDefinition>();
+    //public DbSet<FieldDefinition> FieldDefinition => Set<FieldDefinition>();
     //public DbSet<FormSubmission> FormSubmissions => Set<FormSubmission>();
     //public DbSet<FieldSubmission> FieldSubmissions => Set<FieldSubmission>();
 

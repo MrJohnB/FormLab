@@ -1,5 +1,5 @@
-﻿namespace LiteBulb.FormLab.Domain.Dtos.Metadata;
-public class FieldMetadata : Dto
+﻿namespace LiteBulb.FormLab.Domain.Dtos.Definitions;
+public class FieldDefinition : Dto
 {
     public string Name { get; set; } = string.Empty;
     public string Description { get; set; } = string.Empty;

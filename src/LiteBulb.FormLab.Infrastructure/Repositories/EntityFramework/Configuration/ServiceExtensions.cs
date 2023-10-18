@@ -1,8 +1,8 @@
-﻿using LiteBulb.FormLab.Domain.Dtos.Metadata;
+﻿using LiteBulb.FormLab.Domain.Dtos.Definitions;
 using LiteBulb.FormLab.Domain.Dtos.Submissions;
-using LiteBulb.FormLab.Infrastructure.Mappers.Metadata;
+using LiteBulb.FormLab.Infrastructure.Mappers.Definition;
 using LiteBulb.FormLab.Infrastructure.Mappers.Submissions;
-using LiteBulb.FormLab.Infrastructure.Repositories.EntityFramework.Metadata;
+using LiteBulb.FormLab.Infrastructure.Repositories.EntityFramework.Definition;
 using LiteBulb.FormLab.Infrastructure.Repositories.EntityFramework.Submissions;
 using LiteBulb.FormLab.Shared.Mappers;
 using LiteBulb.FormLab.Shared.Repositories;
@@ -40,8 +40,8 @@ public static class ServiceExtensions
     public static IServiceCollection AddMappers(this IServiceCollection services)
     {
         return services
-            .AddSingleton<IMapper<Entities.Metadata.FormMetadata, FormMetadata>, FormMetadataMapper>()
-            .AddSingleton<IMapper<Entities.Metadata.FieldMetadata, FieldMetadata>, FieldMetadataMapper>()
+            .AddSingleton<IMapper<Entities.Definitions.FormDefinition, FormDefinition>, FormDefinitionMapper>()
+            .AddSingleton<IMapper<Entities.Definitions.FieldDefinition, FieldDefinition>, FieldDefinitionMapper>()
             .AddSingleton<IMapper<Entities.Submissions.FormSubmission, FormSubmission>, FormSubmissionMapper>()
             .AddSingleton<IMapper<Entities.Submissions.FieldSubmission, FieldSubmission>, FieldSubmissionMapper>();
     }
@@ -49,7 +49,7 @@ public static class ServiceExtensions
     public static IServiceCollection AddRepositories(this IServiceCollection services)
     {
         return services
-            .AddScoped<IRepository<FormMetadata, int>, FormMetadataRepository>()
+            .AddScoped<IRepository<FormDefinition, int>, FormDefinitionRepository>()
             .AddScoped<IRepository<FormSubmission, int>, FormSubmissionRepository>();
     }
 }
