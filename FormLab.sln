@@ -31,7 +31,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LiteBulb.FormLab.Infrastruc
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LiteBulb.FormLab.Shared.Tests", "test\LiteBulb.FormLab.Shared.Tests\LiteBulb.FormLab.Shared.Tests.csproj", "{D7A98A78-D917-48BB-88F3-D0B24222A616}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LiteBulb.FormLab.Web.Blazor", "src\LiteBulb.FormLab.Web.Blazor\LiteBulb.FormLab.Web.Blazor.csproj", "{59037862-E603-47F0-9667-79FB29F5251F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LiteBulb.FormLab.Web.Blazor", "src\LiteBulb.FormLab.Web.Blazor\LiteBulb.FormLab.Web.Blazor.csproj", "{59037862-E603-47F0-9667-79FB29F5251F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
