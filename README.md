@@ -2,4 +2,4 @@
 
 ## Swagger Documentation
 
-[REST API](formlabapi.azurewebsites.net)
+[REST API](https://formlabapi.azurewebsites.net/swagger/index.html)
