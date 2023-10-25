@@ -17,7 +17,8 @@ builder.Services.AddControllers(options =>
 });
 
 // Add EntityFramework Core
-var connectionString = builder.Configuration.GetConnectionString(ConnectionStringName);
+var connectionString = builder.Configuration.GetConnectionString(ConnectionStringName)
+    ?? throw new InvalidOperationException($"Connection string: '{ConnectionStringName}' not found.");
 builder.Services.AddApplicationDbContext(connectionString);
 
 // Add custom service registrations
