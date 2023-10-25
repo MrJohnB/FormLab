@@ -24,7 +24,7 @@ _Note: also demonstrate the proper use of C# coding standards and clean architec
 
 Click on the link below to view the Swagger UI and interact with the REST API:
 
-[Swagger UI](https://formlabapi.azurewebsites.net/swagger/index.html)
+[Swagger UI](https://formlabapi.azurewebsites.net/index.html)
 
 [FormDefinition endpoint](https://formlabapi.azurewebsites.net/api/v1/formdefinitions)
 
