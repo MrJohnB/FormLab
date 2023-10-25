@@ -32,7 +32,7 @@ Click on the link below to view the Swagger UI and interact with the REST API:
 
 ## Components
 
-The solution is comprised of 8 main projects and 5 test projects:
+The solution is comprised of 8 main projects:
 1. FormLab API is a REST API that allows for client applications to interact with the FormLab system.  Provides data access and back-end processing.
 2. FormLab Application contains business logic and implementation of services used by the system.
 3. FormLab Domain is where the models are (POCOs).
@@ -41,11 +41,13 @@ The solution is comprised of 8 main projects and 5 test projects:
 6. FormLab Infrastructure.Shared contains shareable abstract base classes for the DAL code (could be moved into NuGet package).
 7. FormLab Shared contains shareable code, interfaces and base classes for other projects (could be moved into NuGet package).
 8. FormLab Web.Blazor contains a Blazor Web Assembly (WASM) front-end UI web client.
-9. FormLab Application Tests is a set of unit tests for the Application project.
-10. FormLab Domain Tests is a set of unit tests for the Domain project.
-11. FormLab Infrastructure Tests is a set of unit tests for the Infrastructure project.
-12. FormLab Infrastructure.Shared Tests is a set of unit tests for the Infrastructure.Shared project.
-13. FormLab Shared Tests is a set of unit tests for the Shared project.
+
+And 5 test projects:
+1. FormLab Application Tests is a set of unit tests for the Application project.
+2. FormLab Domain Tests is a set of unit tests for the Domain project.
+3. FormLab Infrastructure Tests is a set of unit tests for the Infrastructure project.
+4. FormLab Infrastructure.Shared Tests is a set of unit tests for the Infrastructure.Shared project.
+5. FormLab Shared Tests is a set of unit tests for the Shared project.
 
 ## Project Structure
 
@@ -86,7 +88,7 @@ _Note: no .NET Standard 2.1 or .NET Standard 2.0._
 
 ## GitHub
 
-- [Algorithms Repository](https://github.com/MrJohnB/FormLab)
+- [FormLab Repository](https://github.com/MrJohnB/FormLab)
 
 ## Documentation
 
