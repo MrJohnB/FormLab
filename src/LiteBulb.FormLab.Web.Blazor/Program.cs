@@ -10,6 +10,10 @@ builder.RootComponents.Add<HeadOutlet>("head::after");
 
 builder.Services.Configure<ApiSettings>(builder.Configuration.GetSection(nameof(ApiSettings)));
 
+var baseAddress = new BaseAddress() { Address = builder.HostEnvironment.BaseAddress };
+
+builder.Services.AddSingleton<BaseAddress>(baseAddress);
+
 builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri(builder.HostEnvironment.BaseAddress) });
 
 await builder.Build().RunAsync();

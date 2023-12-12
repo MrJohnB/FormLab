@@ -1,4 +1,6 @@
 ﻿@page "/"
+@using LiteBulb.FormLab.Web.Blazor.ConfigSections
+@inject BaseAddress BaseAddress
 
 <PageTitle>Home</PageTitle>
 
@@ -12,4 +14,8 @@
 
 <p class="text-center">
     <a class="btn btn-primary" href="/definitions/forms/add" title="Create New Form">Create New Form</a>
+</p>
+
+<p>
+    Base address: @BaseAddress.Address
 </p>
